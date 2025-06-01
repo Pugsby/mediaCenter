@@ -116,7 +116,7 @@ function select(s) {
         });
         centerSelectedItem();
         if (mediaTypeList.children[selected]) {
-            document.getElementById("selectedText").innerText = mediaTypeList.children[selected].title;
+            document.getElementById("selectedText").innerText = mediaTypeList.children[selected].title.replace(/\.pmcp/g, "");
         }
     }
 }
