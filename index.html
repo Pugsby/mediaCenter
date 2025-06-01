@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pugsby's Media Center Pre-Alpha 0.1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+</head>
+<body>
+    <div id="mediaTypeList">
+
+    </div>
+    <p id="selectedText"></p>
+    <div id="audioBlock" style="display: none;">
+        <p>Please click once so audio can play.<br>This is required due to a limitation in most modern browsers.</p>
+    </div>
+    <div id="videos">
+        <img src="icons/back.png" id="videosHome" onclick="leaveMenu()">
+        <input id="videoSearch" type="text" placeholder="Search">
+        <div class="resultsContainer">
+            <div id="videoResults">
+                
+            </div>
+        </div>
+    </div>
+    
+    <div id="video">
+        
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
