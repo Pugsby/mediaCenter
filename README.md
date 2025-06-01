@@ -6,7 +6,7 @@ In the root of a plugin, the following files are supported:
 - init.js
 - icon.png
 - style.css
-- script.js
+- script.js<br>
 No other files are supported by default, you can load other files by either loading them from URL or by loading them in relative to index.html.
 #### init.js
 Use this for initialization of the plugin. You do not need to load other files or the icon since they're already loaded with the plugin.
